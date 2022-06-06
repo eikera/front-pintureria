@@ -1,0 +1,53 @@
+html, body{
+    margin: 10px;
+    background-color: var(--surface-d);
+    font-family: var(font-family);
+}
+
+.text-layout{
+    color: var(--text-color);
+}
+
+.form-materiales .card {
+    min-width: 450px;
+}
+.form-materiales .card form {
+    margin-top: 2rem;
+}
+.form-materiales .card .field {
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+    .form-materiales .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-materiales .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+.dialog .p-button {
+    margin: 0 .5rem 0 0;
+    min-width: 10rem;
+}
+
+.dialog p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.dialog .p-dialog .p-button {
+    min-width: 6rem;
+}
+
+.field {
+    margin-top: 1.6rem;
+}
+
+.datatable-editing .editable-cells-table td.p-cell-editing {
+    padding-top: 0;
+    padding-bottom: 0;
+}
